@@ -1,0 +1,60 @@
+{
+  "seo_title": "Screen-edge window stash for macOS",
+  "seo_description": "Free, open-source macOS menu bar app that parks any window at a screen edge and slides it out when your pointer touches it. Native, offline, macOS 14+.",
+  "hero_title_line1": "Park windows at the edge.",
+  "hero_title_accent": "Slide them back in.",
+  "hero_sub": "Press Control-Option-S to stash the focused window at the nearest screen edge, leaving a thin strip visible. Rest your pointer on the strip and it slides out; move away and it slides back.",
+  "features_title": "One job, done properly.",
+  "features_sub": "WindowEdgeStash does only edge stashing, and gives you control over how it behaves.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Global stash and unstash hotkeys",
+      "desc": "Stash the focused window with Control-Option-S and restore it with Control-Option-U. Both hotkeys can be re-recorded in Settings."
+    },
+    {
+      "icon": "cursor",
+      "title": "Hover to reveal",
+      "desc": "Rest the pointer on the strip for your chosen delay and the window slides into view, raised and focused. It slides back when the pointer leaves."
+    },
+    {
+      "icon": "window",
+      "title": "Several windows per edge",
+      "desc": "Stash as many windows as you like. Strips on the same edge stack so each one keeps its own hover area."
+    },
+    {
+      "icon": "display",
+      "title": "Multi-display aware",
+      "desc": "Edges that border another display are skipped, so a window is never stashed into the space between your screens."
+    },
+    {
+      "icon": "sliders",
+      "title": "Tunable behavior",
+      "desc": "Set strip width from 2 to 20 points, reveal delay up to 1000 ms and animation duration up to 600 ms. Optionally hide windows when focus moves to another app."
+    },
+    {
+      "icon": "eye",
+      "title": "Menu bar control, no Dock icon",
+      "desc": "The menu lists stashed windows by app and title, each with Unstash, plus Unstash All. A subtle line highlights the edge while you hover a strip."
+    }
+  ],
+  "permissions_step": "When prompted, grant Accessibility access in System Settings > Privacy & Security > Accessibility so the app can move windows.",
+  "faq": [
+    {
+      "q": "Is WindowEdgeStash really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There is no account, no server and no analytics, and you can build it yourself with Xcode."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Accessibility, which it uses to read and move other apps' windows. Launch at login is optional and only registered if you turn it on. It does not request Screen Recording, camera, microphone or network access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Your settings are stored locally in the app's preferences on your Mac. The list of stashed windows lives only in memory, so every stashed window is restored to its original position when you quit the app."
+    },
+    {
+      "q": "Why is the app not notarized?",
+      "a": "Notarization requires a paid Apple Developer account, which this free project does not have. Right-click the app and choose Open once to launch it, or build it from source with Xcode."
+    }
+  ]
+}

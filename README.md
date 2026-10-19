@@ -1,5 +1,7 @@
 # WindowEdgeStash
 
+**🌐 Website:** [turhe123.github.io/window-edge-stash](https://turhe123.github.io/window-edge-stash/)
+
 Park any window at a screen edge where it slides out when your pointer touches that edge.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -28,7 +30,13 @@ The stash list lives only in memory. Window references can't survive a quit, so 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="WindowEdgeStash menu bar menu" width="720"></p>
+
+<p align="center"><em>The WindowEdgeStash menu bar menu with the stash hotkey hint, Stash Focused Window, Settings and Support actions.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="WindowEdgeStash Settings window" width="560"></p>
+
+<p align="center"><em>Settings for recordable hotkeys, strip width, reveal delay, animation speed, focus-loss hiding and launch at login.</em></p>
 
 ## Install
 
